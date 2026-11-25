@@ -7,7 +7,7 @@
     "l1_vitest": {
       "ok": true,
       "exit_code": 0,
-      "tail": "> phaser-squad-extraction-25d-kernel@1.0.0 test\n> vitest run --run\n\n\n RUN  v3.2.7 /Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero\n\n ✓ tests/polishKit.test.ts (6 tests) 7ms\n ✓ tests/squadSim.test.ts (4 tests) 3616ms\n   ✓ squad-extraction-25d authentic NOTD solo & 2D tactical kernel > runs a deterministic solo playthrough bot across Chapter 1 -> Chapter 2 -> Chapter 3 to Airfield Extraction  3535ms\n\n Test Files  2 passed (2)\n      Tests  10 passed (10)\n   Start at  20:33:42\n   Duration  4.10s (transform 181ms, setup 0ms, collect 261ms, tests 3.62s, environment 0ms, prepare 118ms)"
+      "tail": "> phaser-squad-extraction-25d-kernel@1.0.0 test\n> vitest run --run\n\n\n RUN  v3.2.7 /Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero\n\n ✓ tests/polishKit.test.ts (6 tests) 9ms\n ✓ tests/squadSim.test.ts (4 tests) 3917ms\n   ✓ squad-extraction-25d authentic NOTD solo & 2D tactical kernel > runs a deterministic solo playthrough bot across Chapter 1 -> Chapter 2 -> Chapter 3 to Airfield Extraction  3809ms\n\n Test Files  2 passed (2)\n      Tests  10 passed (10)\n   Start at  20:37:33\n   Duration  4.71s (transform 318ms, setup 0ms, collect 433ms, tests 3.93s, environment 1ms, prepare 211ms)"
     },
     "l1_source_cjk": {
       "ok": true,
@@ -397,12 +397,12 @@
       "ok": true,
       "exit_code": 0,
       "dist_index": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/dist/index.html",
-      "tail": "> phaser-squad-extraction-25d-kernel@1.0.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 17 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                  12.78 kB │ gzip:  3.37 kB\ndist/assets/index-Dl9gtXhS.css   16.97 kB │ gzip:  4.33 kB\ndist/assets/index-DrR04052.js   149.27 kB │ gzip: 47.93 kB\n✓ built in 372ms"
+      "tail": "> phaser-squad-extraction-25d-kernel@1.0.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 17 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                  12.78 kB │ gzip:  3.37 kB\ndist/assets/index-Dl9gtXhS.css   16.97 kB │ gzip:  4.33 kB\ndist/assets/index-DrR04052.js   149.27 kB │ gzip: 47.93 kB\n✓ built in 704ms"
     },
     "l3_playtest": {
       "schema": "appfactory.phaser_playtest.v1",
       "ok": true,
-      "url": "http://127.0.0.1:51200/",
+      "url": "http://127.0.0.1:51502/",
       "blockers": [],
       "page_errors": [],
       "console_errors": [],
@@ -2608,15 +2608,15 @@
         "ok": true,
         "label": "canvas_gameplay_action",
         "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/.canvas_probe.png",
-        "bytes": 1038370,
+        "bytes": 1037552,
         "size": [
           1688,
           780
         ],
-        "max_stddev": 17.082,
-        "entropy": 4.217,
+        "max_stddev": 17.175,
+        "entropy": 4.216,
         "unique_colors": 64,
-        "dominant_ratio": 0.09074,
+        "dominant_ratio": 0.09086,
         "blockers": []
       },
       "duo": {
@@ -3283,14 +3283,14 @@
           "maxHp": 150
         },
         "loadedTextures": [
-          "forest",
           "asphalt",
-          "wall",
+          "forest",
           "roof",
+          "wall",
           "cliff",
           "bridge",
-          "humvee",
           "sandbag",
+          "humvee",
           "crate"
         ],
         "missingTextures": [],
@@ -3846,14 +3846,14 @@
           "maxHp": 150
         },
         "loadedTextures": [
-          "forest",
           "asphalt",
-          "wall",
+          "forest",
           "roof",
+          "wall",
           "cliff",
           "bridge",
-          "humvee",
           "sandbag",
+          "humvee",
           "crate"
         ],
         "missingTextures": [],
@@ -3919,6 +3919,79 @@
           "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/07_duo_wide.png"
         }
       ]
+    },
+    "l4_ios_host": {
+      "schema": "appfactory.phaser_ios_host_check.v1",
+      "ok": true,
+      "ios_dir": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/ios",
+      "app_plist_checked": true,
+      "icon": {
+        "schema": "appfactory.phaser_image_check.v1",
+        "ok": true,
+        "label": "AppIcon.png",
+        "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/ios/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "bytes": 1390258,
+        "size": [
+          1024,
+          1024
+        ],
+        "max_stddev": 42.623,
+        "entropy": 6.648,
+        "unique_colors": 64,
+        "dominant_ratio": 0.02883,
+        "blockers": []
+      },
+      "launch_art": {
+        "schema": "appfactory.phaser_image_check.v1",
+        "ok": true,
+        "label": "LaunchArt.png",
+        "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/ios/Resources/Assets.xcassets/LaunchArt.imageset/LaunchArt.png",
+        "bytes": 2169162,
+        "size": [
+          900,
+          1600
+        ],
+        "max_stddev": 43.136,
+        "entropy": 6.976,
+        "unique_colors": 64,
+        "dominant_ratio": 0.02605,
+        "blockers": []
+      },
+      "sim_screenshots": [
+        {
+          "schema": "appfactory.phaser_image_check.v1",
+          "ok": true,
+          "label": "sim_iphone.png",
+          "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/sim_iphone.png",
+          "bytes": 2110849,
+          "size": [
+            1206,
+            2622
+          ],
+          "max_stddev": 36.843,
+          "entropy": 4.88,
+          "unique_colors": 64,
+          "dominant_ratio": 0.10312,
+          "blockers": []
+        },
+        {
+          "schema": "appfactory.phaser_image_check.v1",
+          "ok": true,
+          "label": "sim_duo.png",
+          "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/sim_duo.png",
+          "bytes": 4384655,
+          "size": [
+            2853,
+            2007
+          ],
+          "max_stddev": 29.987,
+          "entropy": 4.231,
+          "unique_colors": 64,
+          "dominant_ratio": 0.08758,
+          "blockers": []
+        }
+      ],
+      "blockers": []
     }
   }
 }

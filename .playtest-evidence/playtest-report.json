@@ -1,7 +1,7 @@
 {
   "schema": "appfactory.phaser_playtest.v1",
   "ok": true,
-  "url": "http://127.0.0.1:51200/",
+  "url": "http://127.0.0.1:51502/",
   "blockers": [],
   "page_errors": [],
   "console_errors": [],
@@ -2207,15 +2207,15 @@
     "ok": true,
     "label": "canvas_gameplay_action",
     "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/.canvas_probe.png",
-    "bytes": 1038370,
+    "bytes": 1037552,
     "size": [
       1688,
       780
     ],
-    "max_stddev": 17.082,
-    "entropy": 4.217,
+    "max_stddev": 17.175,
+    "entropy": 4.216,
     "unique_colors": 64,
-    "dominant_ratio": 0.09074,
+    "dominant_ratio": 0.09086,
     "blockers": []
   },
   "duo": {
@@ -2882,14 +2882,14 @@
       "maxHp": 150
     },
     "loadedTextures": [
-      "forest",
       "asphalt",
-      "wall",
+      "forest",
       "roof",
+      "wall",
       "cliff",
       "bridge",
-      "humvee",
       "sandbag",
+      "humvee",
       "crate"
     ],
     "missingTextures": [],
@@ -3445,14 +3445,14 @@
       "maxHp": 150
     },
     "loadedTextures": [
-      "forest",
       "asphalt",
-      "wall",
+      "forest",
       "roof",
+      "wall",
       "cliff",
       "bridge",
-      "humvee",
       "sandbag",
+      "humvee",
       "crate"
     ],
     "missingTextures": [],
