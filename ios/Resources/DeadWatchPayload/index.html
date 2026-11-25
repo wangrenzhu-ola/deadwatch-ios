@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23090f12'/><circle cx='16' cy='16' r='9' fill='none' stroke='%2334d399' stroke-width='3'/><circle cx='16' cy='16' r='3' fill='%23fbbf24'/></svg>" />
+  <title>DEADWATCH: SECTOR ZERO</title>
+  <script type="module" crossorigin src="./assets/index-DrR04052.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dl9gtXhS.css">
+  <meta name="native-bridge" content="deadWatchNativeBridge" />
+</head>
+<body data-phase="title" data-shop="closed" data-duo="compact" data-nvg="off">
+  <div id="stage"></div>
+
+  <div id="hud">
+    <!-- Top Tactical Strip: Chapter, Objective, Countdown, Radar & Playtest Controls -->
+    <header class="hud-top">
+      <div class="ops-cluster live-only">
+        <div class="ops-head">
+          <span id="chapter-label" data-hud="wave">CH 1 · OPERATION SILENT WATCH · VETERAN · W1</span>
+          <span id="clock-hud" class="clock-pill">00:00</span>
+        </div>
+        <div class="obj-line">
+          <strong id="obj-title">SWEEP RAVENHOLM & AIRDROPS</strong>
+          <span id="obj-detail">Scavenge dark supply crates or parachute cages (0/3).</span>
+        </div>
+        <div class="radio-strip">
+          <span id="radio-speaker">[HQ]</span>
+          <span id="radio-text">Solo operative inserted. Keep your light sweeping the tree line.</span>
+        </div>
+        <div class="ops-foot">
+          <span id="score-hud" data-hud="score">0 PTS · 0 KIA · 0 HOSTILES</span>
+          <div class="playtest-bar" aria-label="Playtest Quick Controls">
+            <button id="dbg-ch1" type="button" class="dbg-btn">CH1</button>
+            <button id="dbg-ch2" type="button" class="dbg-btn">CH2</button>
+            <button id="dbg-ch3" type="button" class="dbg-btn">CH3</button>
+            <button id="dbg-drop" type="button" class="dbg-btn">DROP</button>
+            <button id="dbg-speed" type="button" class="dbg-btn">1x</button>
+            <button id="dbg-duo" type="button" class="dbg-btn">DUO FOV</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="boss-bar" class="boss-plate" hidden>
+        <div class="boss-name" id="boss-name">IRONJAW</div>
+        <div class="boss-track"><div id="boss-fill"></div></div>
+      </div>
+
+      <div class="radar-box live-only" aria-label="Tactical Radar">
+        <canvas id="radar-canvas" width="108" height="108"></canvas>
+        <span class="radar-tag">RADAR</span>
+      </div>
+    </header>
+
+    <!-- Floating Left-Half Virtual Thumbstick (Mobile/Touch) -->
+    <div id="thumbstick-base" aria-hidden="true">
+      <div id="thumbstick-knob"></div>
+    </div>
+
+    <!-- Bottom-Left: Crisp Solo Operator Dog-Tag Portrait, Vitals, Acoustic Meter & Weapon Plate -->
+    <aside id="solo-plate" class="live-only" aria-label="Operator Vitals and Weapon">
+      <div class="solo-row-top">
+        <button id="solo-avatar-btn" class="avatar-ring" type="button" title="Change Dog-Tag Photo">
+          <img id="solo-avatar-img" alt="Operator Portrait" hidden />
+          <span class="avatar-fallback">ID</span>
+        </button>
+        <div class="solo-main">
+          <div class="solo-head">
+            <span id="solo-op-name">RIFLEMAN · ELEV 1</span>
+            <span id="solo-op-weapon" class="solo-weap">M4A1 / M203</span>
+          </div>
+          <div class="solo-bar-row">
+            <div class="solo-track"><div id="solo-hp-fill" class="solo-fill hp"></div></div>
+            <span id="solo-hp-text" class="solo-num">150 / 150 HP</span>
+          </div>
+          <div class="solo-bar-row">
+            <div class="solo-track"><div id="solo-ammo-fill" class="solo-fill ammo"></div></div>
+            <span id="solo-ammo-text" class="solo-num">30/30 · 4 MAGS</span>
+          </div>
+        </div>
+      </div>
+      <div class="solo-foot-row">
+        <div id="solo-vitals" class="solo-vitals">
+          <span class="v-badge ok">VITALS STABLE</span>
+        </div>
+        <div class="mic-meter" title="Live Microphone Acoustic Level">
+          <span class="mic-tag">MIC</span>
+          <div class="mic-track"><div id="mic-meter-fill"></div></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Bottom-Right: Clean Tactical Combat Controls -->
+    <aside id="right-wing" aria-label="Tactical Combat Controls">
+      <div class="wing-util-row">
+        <button id="btn-shop" data-testid="shop-btn" data-shop-open="true" class="wing-btn wing-shop" type="button">
+          <span class="wing-tag">ARMORY</span>
+          <span id="wing-credits" class="wing-sub">0</span>
+        </button>
+        <button id="btn-mic" data-testid="mic-btn" class="wing-btn wing-util wing-mic live-only" type="button">
+          <span class="wing-tag">MIC</span>
+          <span class="wing-sub">VOICE</span>
+        </button>
+        <button id="btn-cam" data-testid="cam-btn" class="wing-btn wing-util live-only" type="button">
+          <span class="wing-tag">PHOTO</span>
+          <span class="wing-sub">SAVE</span>
+        </button>
+      </div>
+
+      <div class="wing-combat-col live-only">
+        <div class="quick-pair">
+          <button id="btn-nvg" data-testid="nvg-btn" class="wing-btn wing-nvg" type="button">
+            <span class="wing-tag">NVG</span>
+            <span class="wing-sub">N</span>
+          </button>
+          <button id="btn-quick-flare" data-testid="quick-flare" class="wing-btn wing-quick" type="button">
+            <span class="wing-tag">FLARE</span>
+            <span id="quick-flare-sub" class="wing-sub">x2</span>
+          </button>
+          <button id="btn-quick-med" data-testid="quick-med" class="wing-btn wing-quick" type="button">
+            <span class="wing-tag">MED</span>
+            <span id="quick-med-sub" class="wing-sub">x1</span>
+          </button>
+        </div>
+
+        <div class="quick-pair">
+          <button id="btn-jump" data-testid="jump-btn" class="wing-btn wing-jump" type="button">
+            <span class="wing-tag">JUMP</span>
+            <span id="jump-sub" class="wing-sub">SPACE</span>
+          </button>
+          <button id="btn-sprint" data-testid="sprint-btn" class="wing-btn wing-sprint" type="button">
+            <span class="wing-tag">SPRINT</span>
+            <span id="sprint-sub" class="wing-sub">SHIFT</span>
+          </button>
+          <button id="btn-reload" data-testid="reload-btn" class="wing-btn wing-reload" type="button">
+            <span class="wing-tag">RELOAD</span>
+            <span id="reload-sub" class="wing-sub">30|4m</span>
+          </button>
+        </div>
+
+        <div class="skill-col">
+          <button id="btn-skill-0" data-testid="skill-0" class="wing-btn wing-skill ready" type="button">
+            <span class="wing-tag">BURST</span>
+            <span class="wing-sub">RDY</span>
+          </button>
+          <button id="btn-skill-1" data-testid="skill-1" class="wing-btn wing-skill ready" type="button">
+            <span class="wing-tag">M203</span>
+            <span class="wing-sub">RDY</span>
+          </button>
+          <button id="btn-skill-2" data-testid="skill-2" class="wing-btn wing-skill ready" type="button">
+            <span class="wing-tag">FLARE</span>
+            <span class="wing-sub">RDY</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Title / Visual Tactical Loadout Dossier -->
+    <section id="title-card" class="ops-modal">
+      <div class="title-top-row">
+        <div>
+          <div class="eyebrow">SOLO NIGHT EXTRACTION · RAVENHOLM SECTOR</div>
+          <h1 id="game-title">DEADWATCH</h1>
+        </div>
+        <div class="dogtag-mini">
+          <button id="btn-dogtag-pick" class="avatar-ring sm" type="button" title="Pick Dog-Tag from Photos">
+            <img id="title-avatar-img" alt="Dog-Tag Portrait" hidden />
+            <span class="avatar-fallback">ID</span>
+          </button>
+          <button id="btn-dogtag-cam" type="button" class="dbg-btn">CAM</button>
+          <input id="avatar-file-input" type="file" accept="image/*" hidden />
+        </div>
+      </div>
+
+      <div class="picker-row op-tabs">
+        <button type="button" class="pick-btn active" data-pick-op="rifleman">RIFLEMAN</button>
+        <button type="button" class="pick-btn" data-pick-op="medic">MEDIC</button>
+        <button type="button" class="pick-btn" data-pick-op="engineer">ENGINEER</button>
+        <button type="button" class="pick-btn" data-pick-op="heavy">HEAVY</button>
+      </div>
+
+      <div id="op-dossier" class="op-dossier">
+        <div class="dossier-portrait">
+          <img id="dossier-img" src="./assets/sprites/op_rifleman.png" alt="Operator Class" />
+          <span id="dossier-weap" class="dossier-weap-tag">M4A1 / M203</span>
+        </div>
+        <div class="dossier-stats">
+          <div class="stat-row">
+            <span>DMG</span>
+            <div class="stat-bar"><div id="stat-dmg" class="stat-fill"></div></div>
+            <strong id="stat-dmg-val">44</strong>
+          </div>
+          <div class="stat-row">
+            <span>ROF</span>
+            <div class="stat-bar"><div id="stat-rof" class="stat-fill rof"></div></div>
+            <strong id="stat-rof-val">3.6/s</strong>
+          </div>
+          <div class="stat-row">
+            <span>SPD</span>
+            <div class="stat-bar"><div id="stat-spd" class="stat-fill spd"></div></div>
+            <strong id="stat-spd-val">164</strong>
+          </div>
+          <div class="stat-row">
+            <span>MAG</span>
+            <div class="stat-bar"><div id="stat-mag" class="stat-fill mag"></div></div>
+            <strong id="stat-mag-val">30×4</strong>
+          </div>
+        </div>
+      </div>
+
+      <div id="op-skills-grid" class="op-skills-grid"></div>
+
+      <div class="diff-block">
+        <div class="picker-row">
+          <button type="button" class="pick-btn" data-pick-diff="boot_camp">BOOT CAMP</button>
+          <button type="button" class="pick-btn active" data-pick-diff="veteran">VETERAN</button>
+          <button type="button" class="pick-btn" data-pick-diff="nightmare">NIGHTMARE</button>
+          <button type="button" class="pick-btn danger-pick" data-pick-diff="hell">EXTINCTION</button>
+        </div>
+        <div class="diff-meta-row">
+          <span id="diff-pips" class="diff-pips">●●○○</span>
+          <span id="title-diff-desc" class="diff-tag">Classic NOTD scarcity</span>
+          <span class="mic-pill">MIC VOICE READY</span>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button id="resume-btn" class="sec-btn" type="button" hidden>RESUME CHECKPOINT</button>
+        <button id="start-btn" data-testid="start-btn" class="cta-btn" type="button">INSERT SOLO</button>
+      </div>
+    </section>
+
+    <!-- Specialization Modal (between Chapters) -->
+    <section id="spec-modal" class="ops-modal" hidden>
+      <div class="eyebrow">CHAPTER CLEARED · CHECKPOINT SAVED</div>
+      <h2>SELECT SPECIALIZATION</h2>
+      <p class="subtitle">Lock a permanent combat doctrine for the next chapter.</p>
+      <div id="spec-choices" class="spec-grid"></div>
+    </section>
+
+    <!-- Armory / Meta Upgrade Modal -->
+    <section id="armory-modal" class="ops-modal" hidden>
+      <div class="armory-head">
+        <div>
+          <div class="eyebrow">PERSISTENT REQUISITION</div>
+          <div class="armory-title">FIELD ARMORY</div>
+        </div>
+        <div id="armory-currency" class="armory-bal" data-shop-currency="0">0 CREDITS · CORPORAL</div>
+      </div>
+      <div id="armory-list" class="armory-list"></div>
+      <div class="modal-actions">
+        <button id="armory-close" type="button" class="sec-btn" data-shop-close="true">CLOSE</button>
+      </div>
+    </section>
+
+    <!-- Victory / Defeat Modal -->
+    <section id="result-card" class="ops-modal" hidden>
+      <div class="eyebrow">AFTER-ACTION REPORT</div>
+      <div class="result-head-row">
+        <div class="avatar-ring">
+          <img id="result-avatar-img" alt="Operator Portrait" hidden />
+          <span class="avatar-fallback">ID</span>
+        </div>
+        <div>
+          <h2 id="result-title">MISSION FAILED</h2>
+          <p id="result-sub" class="subtitle"></p>
+        </div>
+      </div>
+      <div id="result-stats" class="result-stats"></div>
+      <div class="modal-actions">
+        <button id="btn-save-report" type="button" class="sec-btn">SAVE TO PHOTOS</button>
+        <button id="restart-btn" data-testid="restart-btn" class="cta-btn" type="button">DEPLOY AGAIN</button>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>

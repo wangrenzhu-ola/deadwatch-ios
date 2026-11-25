@@ -1,0 +1,16 @@
+{
+  "title": "DeadWatch",
+  "kernel": "squad-extraction-25d",
+  "archetype": "squad-extraction-25d",
+  "bundle_id": "com.elonsuperfactory.deadwatchsectorzero",
+  "game_id": "deadwatch-sector-zero",
+  "created_at": "2026-11-25T12:16:36Z",
+  "quality_bar": "v1",
+  "polish_kit": [
+    "src/kernel/polish/characterLife.ts",
+    "src/kernel/polish/feel.ts",
+    "src/kernel/polish/grounding.ts",
+    "src/kernel/polish/vfxTextures.ts",
+    "tests/polishKit.test.ts"
+  ]
+}

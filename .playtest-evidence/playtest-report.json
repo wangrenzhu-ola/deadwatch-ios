@@ -1,0 +1,3521 @@
+{
+  "schema": "appfactory.phaser_playtest.v1",
+  "ok": true,
+  "url": "http://127.0.0.1:51200/",
+  "blockers": [],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "hud_audits": {
+    "primary_title": {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "hasCanvas": true,
+      "canvasRect": {
+        "left": 0,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "w": 844,
+        "h": 390
+      },
+      "canvasCoverageRatio": 1,
+      "canvasDpi": {
+        "dpr": 2,
+        "backingWidth": 1688,
+        "backingHeight": 780,
+        "cssWidth": 844,
+        "cssHeight": 390,
+        "effectiveDpr": 2
+      },
+      "visibleControlsCount": 12,
+      "emptyTextButtons": [],
+      "clippedControls": [],
+      "overlaps": [],
+      "cjkTexts": [],
+      "styleSummary": {
+        "usesBackdropBlur": false
+      },
+      "controls": [
+        {
+          "label": "shop-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ARMORY\n0",
+          "rect": {
+            "left": 772.921875,
+            "top": 343,
+            "right": 836,
+            "bottom": 378,
+            "w": 63.078125,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.55)"
+          }
+        },
+        {
+          "label": "btn-dogtag-pick",
+          "isButton": true,
+          "interactive": true,
+          "text": "ID",
+          "rect": {
+            "left": 592.5,
+            "top": 60.3046875,
+            "right": 622.5,
+            "bottom": 90.3046875,
+            "w": 30,
+            "h": 30
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 50,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(circle, rgba(16, 185, 129, 0.25), rgba(6, 20, 16, 0.92))",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "btn-dogtag-cam",
+          "isButton": true,
+          "interactive": true,
+          "text": "CAM",
+          "rect": {
+            "left": 628.5,
+            "top": 67.3046875,
+            "right": 661,
+            "bottom": 83.3046875,
+            "w": 32.5,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "RIFLEMAN",
+          "isButton": true,
+          "interactive": true,
+          "text": "RIFLEMAN",
+          "rect": {
+            "left": 183,
+            "top": 107.3046875,
+            "right": 298,
+            "bottom": 135.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(217, 119, 6, 0.32)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(251, 191, 36)"
+          }
+        },
+        {
+          "label": "MEDIC",
+          "isButton": true,
+          "interactive": true,
+          "text": "MEDIC",
+          "rect": {
+            "left": 304,
+            "top": 107.3046875,
+            "right": 419,
+            "bottom": 135.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "ENGINEER",
+          "isButton": true,
+          "interactive": true,
+          "text": "ENGINEER",
+          "rect": {
+            "left": 425,
+            "top": 107.3046875,
+            "right": 540,
+            "bottom": 135.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "HEAVY",
+          "isButton": true,
+          "interactive": true,
+          "text": "HEAVY",
+          "rect": {
+            "left": 546,
+            "top": 107.3046875,
+            "right": 661,
+            "bottom": 135.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "BOOT CAMP",
+          "isButton": true,
+          "interactive": true,
+          "text": "BOOT CAMP",
+          "rect": {
+            "left": 183,
+            "top": 258.3046875,
+            "right": 298,
+            "bottom": 286.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "VETERAN",
+          "isButton": true,
+          "interactive": true,
+          "text": "VETERAN",
+          "rect": {
+            "left": 304,
+            "top": 258.3046875,
+            "right": 419,
+            "bottom": 286.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(217, 119, 6, 0.32)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(251, 191, 36)"
+          }
+        },
+        {
+          "label": "NIGHTMARE",
+          "isButton": true,
+          "interactive": true,
+          "text": "NIGHTMARE",
+          "rect": {
+            "left": 425,
+            "top": 258.3046875,
+            "right": 540,
+            "bottom": 286.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "EXTINCTION",
+          "isButton": true,
+          "interactive": true,
+          "text": "EXTINCTION",
+          "rect": {
+            "left": 546,
+            "top": 258.3046875,
+            "right": 661,
+            "bottom": 286.3046875,
+            "w": 115,
+            "h": 28
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 7,
+            "backgroundColor": "rgba(15, 23, 42, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.35)"
+          }
+        },
+        {
+          "label": "start-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "INSERT SOLO",
+          "rect": {
+            "left": 521.4375,
+            "top": 317.3046875,
+            "right": 661,
+            "bottom": 352.3046875,
+            "w": 139.5625,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "linear-gradient(135deg, rgb(16, 185, 129), rgb(5, 150, 105))",
+            "borderColor": "rgb(2, 44, 34)"
+          }
+        }
+      ]
+    },
+    "primary_gameplay": {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "hasCanvas": true,
+      "canvasRect": {
+        "left": 0,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "w": 844,
+        "h": 390
+      },
+      "canvasCoverageRatio": 1,
+      "canvasDpi": {
+        "dpr": 2,
+        "backingWidth": 1688,
+        "backingHeight": 780,
+        "cssWidth": 844,
+        "cssHeight": 390,
+        "effectiveDpr": 2
+      },
+      "visibleControlsCount": 21,
+      "emptyTextButtons": [],
+      "clippedControls": [],
+      "overlaps": [],
+      "cjkTexts": [],
+      "styleSummary": {
+        "usesBackdropBlur": true
+      },
+      "controls": [
+        {
+          "label": "chapter-label",
+          "isButton": false,
+          "interactive": false,
+          "text": "CH 1 · OPERATION SILENT WATCH · VETERAN · W1",
+          "rect": {
+            "left": 21,
+            "top": 17,
+            "right": 307.328125,
+            "bottom": 29,
+            "w": 286.328125,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "score-hud",
+          "isButton": false,
+          "interactive": false,
+          "text": "0 PTS · 0 KIA · 8 HOSTILES",
+          "rect": {
+            "left": 21,
+            "top": 81.5,
+            "right": 152.25,
+            "bottom": 93.5,
+            "w": 131.25,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(148, 163, 184)"
+          }
+        },
+        {
+          "label": "dbg-ch1",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH1",
+          "rect": {
+            "left": 233.90625,
+            "top": 79.5,
+            "right": 263.921875,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch2",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH2",
+          "rect": {
+            "left": 267.921875,
+            "top": 79.5,
+            "right": 297.9375,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch3",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH3",
+          "rect": {
+            "left": 301.9375,
+            "top": 79.5,
+            "right": 331.953125,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-drop",
+          "isButton": true,
+          "interactive": true,
+          "text": "DROP",
+          "rect": {
+            "left": 335.953125,
+            "top": 79.5,
+            "right": 373.96875,
+            "bottom": 95.5,
+            "w": 38.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-speed",
+          "isButton": true,
+          "interactive": true,
+          "text": "1x",
+          "rect": {
+            "left": 377.96875,
+            "top": 79.5,
+            "right": 399.984375,
+            "bottom": 95.5,
+            "w": 22.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-duo",
+          "isButton": true,
+          "interactive": true,
+          "text": "DUO FOV",
+          "rect": {
+            "left": 403.984375,
+            "top": 79.5,
+            "right": 457,
+            "bottom": 95.5,
+            "w": 53.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "solo-avatar-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ID",
+          "rect": {
+            "left": 23,
+            "top": 310,
+            "right": 61,
+            "bottom": 348,
+            "w": 38,
+            "h": 38
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 50,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(circle, rgba(16, 185, 129, 0.25), rgba(6, 20, 16, 0.92))",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "shop-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ARMORY\n0",
+          "rect": {
+            "left": 654.921875,
+            "top": 220,
+            "right": 718,
+            "bottom": 255,
+            "w": 63.078125,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.55)"
+          }
+        },
+        {
+          "label": "mic-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "MIC\nVOICE",
+          "rect": {
+            "left": 723,
+            "top": 220,
+            "right": 777,
+            "bottom": 255,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "cam-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "PHOTO\nSAVE",
+          "rect": {
+            "left": 782,
+            "top": 220,
+            "right": 836,
+            "bottom": 255,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "nvg-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "NVG\nN",
+          "rect": {
+            "left": 664,
+            "top": 261,
+            "right": 718,
+            "bottom": 296,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.5)"
+          }
+        },
+        {
+          "label": "quick-flare",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nx2",
+          "rect": {
+            "left": 723,
+            "top": 261,
+            "right": 777,
+            "bottom": 296,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "quick-med",
+          "isButton": true,
+          "interactive": true,
+          "text": "MED\nx1",
+          "rect": {
+            "left": 782,
+            "top": 261,
+            "right": 836,
+            "bottom": 296,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "jump-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "JUMP\nSPACE",
+          "rect": {
+            "left": 644.328125,
+            "top": 302,
+            "right": 698.328125,
+            "bottom": 337,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(14, 116, 144, 0.34)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.65)"
+          }
+        },
+        {
+          "label": "sprint-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "SPRINT\nSHIFT",
+          "rect": {
+            "left": 703.328125,
+            "top": 302,
+            "right": 759,
+            "bottom": 337,
+            "w": 55.671875,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(6, 78, 59, 0.36)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.55)"
+          }
+        },
+        {
+          "label": "reload-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "RELOAD\n28|4m",
+          "rect": {
+            "left": 764,
+            "top": 302,
+            "right": 836,
+            "bottom": 337,
+            "w": 72,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.5)"
+          }
+        },
+        {
+          "label": "skill-0",
+          "isButton": true,
+          "interactive": true,
+          "text": "BURST\nRDY",
+          "rect": {
+            "left": 664,
+            "top": 343,
+            "right": 718,
+            "bottom": 378,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-1",
+          "isButton": true,
+          "interactive": true,
+          "text": "M203\nRDY",
+          "rect": {
+            "left": 723,
+            "top": 343,
+            "right": 777,
+            "bottom": 378,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-2",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nRDY",
+          "rect": {
+            "left": 782,
+            "top": 343,
+            "right": 836,
+            "bottom": 378,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        }
+      ]
+    },
+    "secondary_viewport": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hasCanvas": true,
+      "canvasRect": {
+        "left": 0,
+        "top": 0,
+        "right": 390,
+        "bottom": 844,
+        "w": 390,
+        "h": 844
+      },
+      "canvasCoverageRatio": 1,
+      "canvasDpi": {
+        "dpr": 2,
+        "backingWidth": 780,
+        "backingHeight": 1688,
+        "cssWidth": 390,
+        "cssHeight": 844,
+        "effectiveDpr": 2
+      },
+      "visibleControlsCount": 21,
+      "emptyTextButtons": [],
+      "clippedControls": [],
+      "overlaps": [],
+      "cjkTexts": [],
+      "styleSummary": {
+        "usesBackdropBlur": true
+      },
+      "controls": [
+        {
+          "label": "chapter-label",
+          "isButton": false,
+          "interactive": false,
+          "text": "CH 1 · OPERATION SILENT WATCH · VETERAN · W1",
+          "rect": {
+            "left": 21,
+            "top": 15,
+            "right": 205.546875,
+            "bottom": 39,
+            "w": 184.546875,
+            "h": 24
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "score-hud",
+          "isButton": false,
+          "interactive": false,
+          "text": "0 PTS · 0 KIA · 8 HOSTILES",
+          "rect": {
+            "left": 21,
+            "top": 101.25,
+            "right": 70.453125,
+            "bottom": 137.25,
+            "w": 49.453125,
+            "h": 36
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(148, 163, 184)"
+          }
+        },
+        {
+          "label": "dbg-ch1",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH1",
+          "rect": {
+            "left": 78.453125,
+            "top": 106.25,
+            "right": 108.46875,
+            "bottom": 132.25,
+            "w": 30.015625,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch2",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH2",
+          "rect": {
+            "left": 112.46875,
+            "top": 106.25,
+            "right": 142.484375,
+            "bottom": 132.25,
+            "w": 30.015625,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch3",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH3",
+          "rect": {
+            "left": 146.484375,
+            "top": 106.25,
+            "right": 176.5,
+            "bottom": 132.25,
+            "w": 30.015625,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-drop",
+          "isButton": true,
+          "interactive": true,
+          "text": "DROP",
+          "rect": {
+            "left": 180.5,
+            "top": 106.25,
+            "right": 218.515625,
+            "bottom": 132.25,
+            "w": 38.015625,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-speed",
+          "isButton": true,
+          "interactive": true,
+          "text": "1x",
+          "rect": {
+            "left": 222.515625,
+            "top": 106.25,
+            "right": 244.53125,
+            "bottom": 132.25,
+            "w": 22.015625,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-duo",
+          "isButton": true,
+          "interactive": true,
+          "text": "DUO FOV",
+          "rect": {
+            "left": 248.53125,
+            "top": 106.25,
+            "right": 280.53125,
+            "bottom": 132.25,
+            "w": 32,
+            "h": 26
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "solo-avatar-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ID",
+          "rect": {
+            "left": 23,
+            "top": 758.5,
+            "right": 61,
+            "bottom": 796.5,
+            "w": 38,
+            "h": 38
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 50,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(circle, rgba(16, 185, 129, 0.25), rgba(6, 20, 16, 0.92))",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "shop-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ARMORY\n420",
+          "rect": {
+            "left": 200.921875,
+            "top": 674,
+            "right": 264,
+            "bottom": 709,
+            "w": 63.078125,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.55)"
+          }
+        },
+        {
+          "label": "mic-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "MIC\nVOICE",
+          "rect": {
+            "left": 269,
+            "top": 674,
+            "right": 323,
+            "bottom": 709,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "cam-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "PHOTO\nSAVE",
+          "rect": {
+            "left": 328,
+            "top": 674,
+            "right": 382,
+            "bottom": 709,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "nvg-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "NVG\nN",
+          "rect": {
+            "left": 210,
+            "top": 715,
+            "right": 264,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.5)"
+          }
+        },
+        {
+          "label": "quick-flare",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nx2",
+          "rect": {
+            "left": 269,
+            "top": 715,
+            "right": 323,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "quick-med",
+          "isButton": true,
+          "interactive": true,
+          "text": "MED\nx1",
+          "rect": {
+            "left": 328,
+            "top": 715,
+            "right": 382,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "jump-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "JUMP\nSPACE",
+          "rect": {
+            "left": 190.328125,
+            "top": 756,
+            "right": 244.328125,
+            "bottom": 791,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(14, 116, 144, 0.34)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.65)"
+          }
+        },
+        {
+          "label": "sprint-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "SPRINT\nSHIFT",
+          "rect": {
+            "left": 249.328125,
+            "top": 756,
+            "right": 305,
+            "bottom": 791,
+            "w": 55.671875,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(6, 78, 59, 0.36)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.55)"
+          }
+        },
+        {
+          "label": "reload-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "RELOAD\n27|4m",
+          "rect": {
+            "left": 310,
+            "top": 756,
+            "right": 382,
+            "bottom": 791,
+            "w": 72,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.5)"
+          }
+        },
+        {
+          "label": "skill-0",
+          "isButton": true,
+          "interactive": true,
+          "text": "BURST\nRDY",
+          "rect": {
+            "left": 210,
+            "top": 797,
+            "right": 264,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-1",
+          "isButton": true,
+          "interactive": true,
+          "text": "M203\nRDY",
+          "rect": {
+            "left": 269,
+            "top": 797,
+            "right": 323,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-2",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nRDY",
+          "rect": {
+            "left": 328,
+            "top": 797,
+            "right": 382,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        }
+      ]
+    },
+    "duo_unfolded": {
+      "viewport": {
+        "width": 780,
+        "height": 844
+      },
+      "hasCanvas": true,
+      "canvasRect": {
+        "left": 0,
+        "top": 0,
+        "right": 780,
+        "bottom": 844,
+        "w": 780,
+        "h": 844
+      },
+      "canvasCoverageRatio": 1,
+      "canvasDpi": {
+        "dpr": 2,
+        "backingWidth": 1560,
+        "backingHeight": 1688,
+        "cssWidth": 780,
+        "cssHeight": 844,
+        "effectiveDpr": 2
+      },
+      "visibleControlsCount": 21,
+      "emptyTextButtons": [],
+      "clippedControls": [],
+      "overlaps": [],
+      "cjkTexts": [],
+      "styleSummary": {
+        "usesBackdropBlur": true
+      },
+      "controls": [
+        {
+          "label": "chapter-label",
+          "isButton": false,
+          "interactive": false,
+          "text": "CH 1 · OPERATION SILENT WATCH · VETERAN · W1",
+          "rect": {
+            "left": 21,
+            "top": 17,
+            "right": 307.328125,
+            "bottom": 29,
+            "w": 286.328125,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "score-hud",
+          "isButton": false,
+          "interactive": false,
+          "text": "20 PTS · 1 KIA · 7 HOSTILES",
+          "rect": {
+            "left": 21,
+            "top": 81.5,
+            "right": 156.0625,
+            "bottom": 93.5,
+            "w": 135.0625,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(148, 163, 184)"
+          }
+        },
+        {
+          "label": "dbg-ch1",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH1",
+          "rect": {
+            "left": 233.90625,
+            "top": 79.5,
+            "right": 263.921875,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch2",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH2",
+          "rect": {
+            "left": 267.921875,
+            "top": 79.5,
+            "right": 297.9375,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch3",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH3",
+          "rect": {
+            "left": 301.9375,
+            "top": 79.5,
+            "right": 331.953125,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-drop",
+          "isButton": true,
+          "interactive": true,
+          "text": "DROP",
+          "rect": {
+            "left": 335.953125,
+            "top": 79.5,
+            "right": 373.96875,
+            "bottom": 95.5,
+            "w": 38.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-speed",
+          "isButton": true,
+          "interactive": true,
+          "text": "1x",
+          "rect": {
+            "left": 377.96875,
+            "top": 79.5,
+            "right": 399.984375,
+            "bottom": 95.5,
+            "w": 22.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-duo",
+          "isButton": true,
+          "interactive": true,
+          "text": "DUO FOV",
+          "rect": {
+            "left": 403.984375,
+            "top": 79.5,
+            "right": 457,
+            "bottom": 95.5,
+            "w": 53.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "solo-avatar-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ID",
+          "rect": {
+            "left": 23,
+            "top": 764,
+            "right": 61,
+            "bottom": 802,
+            "w": 38,
+            "h": 38
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 50,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(circle, rgba(16, 185, 129, 0.25), rgba(6, 20, 16, 0.92))",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "shop-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ARMORY\n420",
+          "rect": {
+            "left": 590.921875,
+            "top": 674,
+            "right": 654,
+            "bottom": 709,
+            "w": 63.078125,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.55)"
+          }
+        },
+        {
+          "label": "mic-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "MIC\nVOICE",
+          "rect": {
+            "left": 659,
+            "top": 674,
+            "right": 713,
+            "bottom": 709,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "cam-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "PHOTO\nSAVE",
+          "rect": {
+            "left": 718,
+            "top": 674,
+            "right": 772,
+            "bottom": 709,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "nvg-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "NVG\nN",
+          "rect": {
+            "left": 600,
+            "top": 715,
+            "right": 654,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.5)"
+          }
+        },
+        {
+          "label": "quick-flare",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nx2",
+          "rect": {
+            "left": 659,
+            "top": 715,
+            "right": 713,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "quick-med",
+          "isButton": true,
+          "interactive": true,
+          "text": "MED\nx1",
+          "rect": {
+            "left": 718,
+            "top": 715,
+            "right": 772,
+            "bottom": 750,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "jump-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "JUMP\nSPACE",
+          "rect": {
+            "left": 580.328125,
+            "top": 756,
+            "right": 634.328125,
+            "bottom": 791,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(14, 116, 144, 0.34)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.65)"
+          }
+        },
+        {
+          "label": "sprint-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "SPRINT\nSHIFT",
+          "rect": {
+            "left": 639.328125,
+            "top": 756,
+            "right": 695,
+            "bottom": 791,
+            "w": 55.671875,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(6, 78, 59, 0.36)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.55)"
+          }
+        },
+        {
+          "label": "reload-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "RELOAD\n24|4m",
+          "rect": {
+            "left": 700,
+            "top": 756,
+            "right": 772,
+            "bottom": 791,
+            "w": 72,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.5)"
+          }
+        },
+        {
+          "label": "skill-0",
+          "isButton": true,
+          "interactive": true,
+          "text": "BURST\nRDY",
+          "rect": {
+            "left": 600,
+            "top": 797,
+            "right": 654,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-1",
+          "isButton": true,
+          "interactive": true,
+          "text": "M203\nRDY",
+          "rect": {
+            "left": 659,
+            "top": 797,
+            "right": 713,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-2",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nRDY",
+          "rect": {
+            "left": 718,
+            "top": 797,
+            "right": 772,
+            "bottom": 832,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        }
+      ]
+    },
+    "duo_wide": {
+      "viewport": {
+        "width": 844,
+        "height": 780
+      },
+      "hasCanvas": true,
+      "canvasRect": {
+        "left": 0,
+        "top": 0,
+        "right": 844,
+        "bottom": 780,
+        "w": 844,
+        "h": 780
+      },
+      "canvasCoverageRatio": 1,
+      "canvasDpi": {
+        "dpr": 2,
+        "backingWidth": 1688,
+        "backingHeight": 1560,
+        "cssWidth": 844,
+        "cssHeight": 780,
+        "effectiveDpr": 2
+      },
+      "visibleControlsCount": 21,
+      "emptyTextButtons": [],
+      "clippedControls": [],
+      "overlaps": [],
+      "cjkTexts": [],
+      "styleSummary": {
+        "usesBackdropBlur": true
+      },
+      "controls": [
+        {
+          "label": "chapter-label",
+          "isButton": false,
+          "interactive": false,
+          "text": "CH 1 · OPERATION SILENT WATCH · VETERAN · W1",
+          "rect": {
+            "left": 21,
+            "top": 17,
+            "right": 307.328125,
+            "bottom": 29,
+            "w": 286.328125,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "score-hud",
+          "isButton": false,
+          "interactive": false,
+          "text": "40 PTS · 2 KIA · 6 HOSTILES",
+          "rect": {
+            "left": 21,
+            "top": 81.5,
+            "right": 158.53125,
+            "bottom": 93.5,
+            "w": 137.53125,
+            "h": 12
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 0,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(148, 163, 184)"
+          }
+        },
+        {
+          "label": "dbg-ch1",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH1",
+          "rect": {
+            "left": 233.90625,
+            "top": 79.5,
+            "right": 263.921875,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch2",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH2",
+          "rect": {
+            "left": 267.921875,
+            "top": 79.5,
+            "right": 297.9375,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-ch3",
+          "isButton": true,
+          "interactive": true,
+          "text": "CH3",
+          "rect": {
+            "left": 301.9375,
+            "top": 79.5,
+            "right": 331.953125,
+            "bottom": 95.5,
+            "w": 30.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-drop",
+          "isButton": true,
+          "interactive": true,
+          "text": "DROP",
+          "rect": {
+            "left": 335.953125,
+            "top": 79.5,
+            "right": 373.96875,
+            "bottom": 95.5,
+            "w": 38.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-speed",
+          "isButton": true,
+          "interactive": true,
+          "text": "1x",
+          "rect": {
+            "left": 377.96875,
+            "top": 79.5,
+            "right": 399.984375,
+            "bottom": 95.5,
+            "w": 22.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "dbg-duo",
+          "isButton": true,
+          "interactive": true,
+          "text": "DUO FOV",
+          "rect": {
+            "left": 403.984375,
+            "top": 79.5,
+            "right": 457,
+            "bottom": 95.5,
+            "w": 53.015625,
+            "h": 16
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 4,
+            "backgroundColor": "rgba(30, 41, 59, 0.85)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.32)"
+          }
+        },
+        {
+          "label": "solo-avatar-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ID",
+          "rect": {
+            "left": 23,
+            "top": 700,
+            "right": 61,
+            "bottom": 738,
+            "w": 38,
+            "h": 38
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 50,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(circle, rgba(16, 185, 129, 0.25), rgba(6, 20, 16, 0.92))",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "shop-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "ARMORY\n420",
+          "rect": {
+            "left": 654.921875,
+            "top": 610,
+            "right": 718,
+            "bottom": 645,
+            "w": 63.078125,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.55)"
+          }
+        },
+        {
+          "label": "mic-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "MIC\nVOICE",
+          "rect": {
+            "left": 723,
+            "top": 610,
+            "right": 777,
+            "bottom": 645,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "cam-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "PHOTO\nSAVE",
+          "rect": {
+            "left": 782,
+            "top": 610,
+            "right": 836,
+            "bottom": 645,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(148, 163, 184, 0.34)"
+          }
+        },
+        {
+          "label": "nvg-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "NVG\nN",
+          "rect": {
+            "left": 664,
+            "top": 651,
+            "right": 718,
+            "bottom": 686,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.5)"
+          }
+        },
+        {
+          "label": "quick-flare",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nx2",
+          "rect": {
+            "left": 723,
+            "top": 651,
+            "right": 777,
+            "bottom": 686,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "quick-med",
+          "isButton": true,
+          "interactive": true,
+          "text": "MED\nx1",
+          "rect": {
+            "left": 782,
+            "top": 651,
+            "right": 836,
+            "bottom": 686,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(251, 191, 36, 0.5)"
+          }
+        },
+        {
+          "label": "jump-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "JUMP\nSPACE",
+          "rect": {
+            "left": 644.328125,
+            "top": 692,
+            "right": 698.328125,
+            "bottom": 727,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(14, 116, 144, 0.34)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.65)"
+          }
+        },
+        {
+          "label": "sprint-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "SPRINT\nSHIFT",
+          "rect": {
+            "left": 703.328125,
+            "top": 692,
+            "right": 759,
+            "bottom": 727,
+            "w": 55.671875,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(6, 78, 59, 0.36)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(52, 211, 153, 0.55)"
+          }
+        },
+        {
+          "label": "reload-btn",
+          "isButton": true,
+          "interactive": true,
+          "text": "RELOAD\n23|4m",
+          "rect": {
+            "left": 764,
+            "top": 692,
+            "right": 836,
+            "bottom": 727,
+            "w": 72,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(10, 19, 17, 0.84)",
+            "backgroundImage": "none",
+            "borderColor": "rgba(56, 189, 248, 0.5)"
+          }
+        },
+        {
+          "label": "skill-0",
+          "isButton": true,
+          "interactive": true,
+          "text": "BURST\nRDY",
+          "rect": {
+            "left": 664,
+            "top": 733,
+            "right": 718,
+            "bottom": 768,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-1",
+          "isButton": true,
+          "interactive": true,
+          "text": "M203\nRDY",
+          "rect": {
+            "left": 723,
+            "top": 733,
+            "right": 777,
+            "bottom": 768,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        },
+        {
+          "label": "skill-2",
+          "isButton": true,
+          "interactive": true,
+          "text": "FLARE\nRDY",
+          "rect": {
+            "left": 782,
+            "top": 733,
+            "right": 836,
+            "bottom": 768,
+            "w": 54,
+            "h": 35
+          },
+          "style": {
+            "backdropFilter": "none",
+            "borderRadiusPx": 8,
+            "backgroundColor": "rgba(16, 185, 129, 0.24)",
+            "backgroundImage": "none",
+            "borderColor": "rgb(52, 211, 153)"
+          }
+        }
+      ]
+    }
+  },
+  "canvas_dpi": {
+    "dpr": 2,
+    "backingWidth": 1688,
+    "backingHeight": 780,
+    "cssWidth": 844,
+    "cssHeight": 390,
+    "effectiveDpr": 2
+  },
+  "canvas_probe": {
+    "schema": "appfactory.phaser_image_check.v1",
+    "ok": true,
+    "label": "canvas_gameplay_action",
+    "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/.canvas_probe.png",
+    "bytes": 1038370,
+    "size": [
+      1688,
+      780
+    ],
+    "max_stddev": 17.082,
+    "entropy": 4.217,
+    "unique_colors": 64,
+    "dominant_ratio": 0.09074,
+    "blockers": []
+  },
+  "duo": {
+    "tested": true,
+    "layout_policy": "fullscreen_no_split",
+    "continuity_ok": true,
+    "unfolded_mode": "unfolded",
+    "wide_mode": "unfolded",
+    "unfolded_canvas_coverage": 1,
+    "wide_canvas_coverage": 1,
+    "unfolded_buttons_total": 19,
+    "unfolded_buttons_in_bottom_band": 13
+  },
+  "shop_e2e": {
+    "tested": true,
+    "ok": true,
+    "granted_test_currency": true,
+    "currency_before": 500,
+    "currency_after": 420,
+    "currency_reload": 420,
+    "level_before": null,
+    "level_after": null,
+    "level_reload": null,
+    "click_worked": true,
+    "reload_checked": true,
+    "persisted": true
+  },
+  "ui_fingerprint": {
+    "game_id": "deadwatch-sector-zero",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "zone_vector": [
+      0,
+      0.5025,
+      0.1005,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.603,
+      0.1005,
+      0,
+      0,
+      0.603
+    ],
+    "bottom_band_ratio": 0.3684,
+    "button_count": 19,
+    "style_tokens": {
+      "uses_backdrop_blur": true,
+      "avg_border_radius_ratio": 0.2496,
+      "primary_bg_rgb": [
+        16,
+        185,
+        129
+      ]
+    },
+    "allow_bottom_bar": false,
+    "bottom_bar_monotony_blocker": null,
+    "similarity_check": {
+      "ok": true,
+      "compared_peers": 7,
+      "max_cosine": 0.4264,
+      "blockers": [],
+      "matches": [
+        {
+          "peer": "sumi-cadence",
+          "cosine": 0.4264,
+          "rgb_dist": 267.41,
+          "flagged": false
+        },
+        {
+          "peer": "belfry-vigil",
+          "cosine": 0.402,
+          "rgb_dist": 0,
+          "flagged": false
+        },
+        {
+          "peer": "starfall-bastion",
+          "cosine": 0.2412,
+          "rgb_dist": 252.8,
+          "flagged": false
+        },
+        {
+          "peer": "faultline-shift",
+          "cosine": 0.2369,
+          "rgb_dist": 259.03,
+          "flagged": false
+        },
+        {
+          "peer": "sigil-satchel",
+          "cosine": 0.1343,
+          "rgb_dist": 266.96,
+          "flagged": false
+        },
+        {
+          "peer": "cinder-die",
+          "cosine": 0.0985,
+          "rgb_dist": 265.75,
+          "flagged": false
+        },
+        {
+          "peer": "sunstrike-alley",
+          "cosine": 0,
+          "rgb_dist": 258.42,
+          "flagged": false
+        }
+      ]
+    }
+  },
+  "state_before": {
+    "phase": "playing",
+    "chapter": 1,
+    "chapterTitle": "CH 1 · OPERATION SILENT WATCH",
+    "stage": "c1_scavenge",
+    "difficulty": "veteran",
+    "elapsedSec": 0.5000000000000001,
+    "waveIndex": 1,
+    "score": 0,
+    "kills": 0,
+    "credits": 0,
+    "rankTitle": "CORPORAL",
+    "order": "follow",
+    "controlledId": "rifleman",
+    "darkness": 0.74,
+    "floodlightsOnline": false,
+    "nuclearPurgeActive": false,
+    "nuclearCountdownSec": 600,
+    "lzSmokeActive": false,
+    "lzHoldRemainingSec": 60,
+    "objectiveTitle": "SWEEP RAVENHOLM & AIRDROPS",
+    "objectiveDetail": "Scavenge dark supply crates or parachute cages (0/3).",
+    "markers": [
+      {
+        "id": "village",
+        "label": "RAVENHOLM",
+        "x": 1620,
+        "y": 3180,
+        "color": "#fbbf24"
+      }
+    ],
+    "quickFlares": 2,
+    "quickMeds": 1,
+    "focusEnemyId": null,
+    "timeScale": 1,
+    "radio": {
+      "speaker": "HQ",
+      "text": "Echo-3 deployed. Sweep Hollow Village for ammo, flares, and med supplies.",
+      "timeSec": 0
+    },
+    "boss": null,
+    "pendingSpecChapter": null,
+    "defeatReason": "",
+    "hasCheckpoint": false,
+    "checkpointChapter": null,
+    "operators": [
+      {
+        "id": "rifleman",
+        "x": 1575,
+        "y": 4245,
+        "vx": 0,
+        "vy": 0,
+        "facing": 1.6864527726489746,
+        "hp": 150,
+        "maxHp": 150,
+        "armor": 5,
+        "mag": 28,
+        "magSize": 30,
+        "reserveMags": 4,
+        "maxReserveMags": 10,
+        "reloadingSec": 0,
+        "reloadDurSec": 1.75,
+        "fireCooldownSec": 0.11636363636363638,
+        "skillCooldowns": [
+          0,
+          0,
+          0
+        ],
+        "branch": null,
+        "downed": false,
+        "bleedoutSec": 22,
+        "reviveProgressSec": 0,
+        "alive": true,
+        "ailments": {
+          "open_wound": 0,
+          "fracture": 0,
+          "poison": 0,
+          "parasite": 0
+        },
+        "bioShieldSec": 0,
+        "burstSec": 0,
+        "salineSec": 0,
+        "steroidsSec": 0,
+        "suppressiveSec": 0,
+        "sprintSec": 0,
+        "sprintCooldownSec": 0,
+        "jumpCooldownSec": 0,
+        "invulnSec": 0,
+        "carryingFuel": false,
+        "barkText": "",
+        "barkTimerSec": 0,
+        "aiState": "player",
+        "hitFlashSec": 0,
+        "muzzleFlashSec": 0,
+        "jumpZ": 0,
+        "jumpVz": 0,
+        "jumpStartElev": 1,
+        "stamina": 100,
+        "maxStamina": 100,
+        "outOfAmmo": false,
+        "usingPistol": false,
+        "pistolMag": 8,
+        "pistolReloadSec": 0,
+        "meleeCooldownSec": 0,
+        "weaponTier": 0
+      }
+    ],
+    "enemies": [
+      {
+        "id": 18,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4487.422836005681,
+        "y": 972.5771639943118,
+        "vx": -55.154327988620935,
+        "vy": 55.15432798862548,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 19,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 375,
+        "y": 2484.0000000000005,
+        "vx": 0,
+        "vy": 78.00000000000182,
+        "facing": 1.5707963267948966,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 20,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 1411.5510045989774,
+        "y": 408.2439967156549,
+        "vx": -55.15432798862548,
+        "vy": 55.154327988624345,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 21,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 1561.37179804622,
+        "y": 4362.307618335732,
+        "vx": 9.001104333865442,
+        "vy": -77.47890113296307,
+        "facing": -1.4551398809408185,
+        "hp": 3.4000000000000057,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 22,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 420.4058953642356,
+        "y": 916.00588520294,
+        "vx": 2.2607311622994075,
+        "vy": 0.05643572676945041,
+        "facing": 1.5707963267948966,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 23,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4457.422836005681,
+        "y": 2712.5771639943086,
+        "vx": -55.154327988620935,
+        "vy": 55.154327988620935,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 24,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4482.230637821284,
+        "y": 4110.042089451447,
+        "vx": -77.99999999999272,
+        "vy": 0,
+        "facing": 3.141592653589793,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 25,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 1482.5771639943143,
+        "y": 4427.422836005681,
+        "vx": 55.15432798862548,
+        "vy": -55.154327988620935,
+        "facing": -0.7853981633974483,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 1.9999999999999962,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      }
+    ],
+    "bullets": [],
+    "flares": [],
+    "claymores": [],
+    "turrets": [],
+    "firePools": [],
+    "airStrikes": [],
+    "airdrops": [],
+    "loots": [
+      {
+        "id": 1,
+        "x": 1485,
+        "y": 3975,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 2,
+        "x": 1755,
+        "y": 3825,
+        "kind": "bandage",
+        "label": "FIBRIN BANDAGE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 3,
+        "x": 1365,
+        "y": 2985,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 4,
+        "x": 1875,
+        "y": 2955,
+        "kind": "flare",
+        "label": "ILLUM FLARES",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 5,
+        "x": 1365,
+        "y": 3435,
+        "kind": "armor",
+        "label": "COMPOSITE ARMOR",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 6,
+        "x": 1905,
+        "y": 3435,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 7,
+        "x": 1635,
+        "y": 3195,
+        "kind": "claymore",
+        "label": "CLAYMORE CASE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 8,
+        "x": 795,
+        "y": 2865,
+        "kind": "medkit",
+        "label": "FIELD MEDKIT",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 9,
+        "x": 975,
+        "y": 1665,
+        "kind": "tx1",
+        "label": "TX-1 TOXIC ROUNDS",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 10,
+        "x": 1155,
+        "y": 1455,
+        "kind": "ap_ammo",
+        "label": "AP / DU ROUNDS",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 11,
+        "x": 1875,
+        "y": 2295,
+        "kind": "weapon_upgrade",
+        "label": "FN MK17 / SPEC WEAPON",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 12,
+        "x": 2145,
+        "y": 1305,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 13,
+        "x": 2535,
+        "y": 2505,
+        "kind": "bandage",
+        "label": "FIBRIN BANDAGE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 14,
+        "x": 3525,
+        "y": 3285,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 15,
+        "x": 3615,
+        "y": 2445,
+        "kind": "flare",
+        "label": "ILLUM FLARES",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 16,
+        "x": 3975,
+        "y": 1875,
+        "kind": "armor",
+        "label": "COMPOSITE ARMOR",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 17,
+        "x": 4245,
+        "y": 1335,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      }
+    ],
+    "scene": "PlayScene",
+    "player": {
+      "x": 1575,
+      "y": 4245,
+      "hp": 150,
+      "maxHp": 150
+    },
+    "loadedTextures": [
+      "forest",
+      "asphalt",
+      "wall",
+      "roof",
+      "cliff",
+      "bridge",
+      "humvee",
+      "sandbag",
+      "crate"
+    ],
+    "missingTextures": [],
+    "duoMode": "compact",
+    "nvgActive": false,
+    "soloMode": true
+  },
+  "state_after": {
+    "phase": "playing",
+    "chapter": 1,
+    "chapterTitle": "CH 1 · OPERATION SILENT WATCH",
+    "stage": "c1_scavenge",
+    "difficulty": "veteran",
+    "elapsedSec": 5.243999999999992,
+    "waveIndex": 1,
+    "score": 40,
+    "kills": 2,
+    "credits": 0,
+    "rankTitle": "CORPORAL",
+    "order": "follow",
+    "controlledId": "rifleman",
+    "darkness": 0.74,
+    "floodlightsOnline": false,
+    "nuclearPurgeActive": false,
+    "nuclearCountdownSec": 600,
+    "lzSmokeActive": false,
+    "lzHoldRemainingSec": 60,
+    "objectiveTitle": "SWEEP RAVENHOLM & AIRDROPS",
+    "objectiveDetail": "Scavenge dark supply crates or parachute cages (0/3).",
+    "markers": [
+      {
+        "id": "village",
+        "label": "RAVENHOLM",
+        "x": 1620,
+        "y": 3180,
+        "color": "#fbbf24"
+      }
+    ],
+    "quickFlares": 2,
+    "quickMeds": 1,
+    "focusEnemyId": null,
+    "timeScale": 1,
+    "radio": {
+      "speaker": "HQ",
+      "text": "First contact confirmed! Dropping 5 parachute supply cages across the sector — retrieve supplies!",
+      "timeSec": 0.7000000000000003
+    },
+    "boss": null,
+    "pendingSpecChapter": null,
+    "defeatReason": "",
+    "hasCheckpoint": false,
+    "checkpointChapter": null,
+    "operators": [
+      {
+        "id": "rifleman",
+        "x": 1689.8000000000013,
+        "y": 4245,
+        "vx": 0,
+        "vy": 0,
+        "facing": 0,
+        "hp": 150,
+        "maxHp": 150,
+        "armor": 5,
+        "mag": 24,
+        "magSize": 30,
+        "reserveMags": 4,
+        "maxReserveMags": 10,
+        "reloadingSec": 0,
+        "reloadDurSec": 1.75,
+        "fireCooldownSec": 0,
+        "skillCooldowns": [
+          0,
+          0,
+          0
+        ],
+        "branch": null,
+        "downed": false,
+        "bleedoutSec": 22,
+        "reviveProgressSec": 0,
+        "alive": true,
+        "ailments": {
+          "open_wound": 0,
+          "fracture": 0,
+          "poison": 0,
+          "parasite": 0
+        },
+        "bioShieldSec": 0,
+        "burstSec": 0,
+        "salineSec": 0,
+        "steroidsSec": 0,
+        "suppressiveSec": 0,
+        "sprintSec": 0,
+        "sprintCooldownSec": 0,
+        "jumpCooldownSec": 0,
+        "invulnSec": 0,
+        "carryingFuel": false,
+        "barkText": "",
+        "barkTimerSec": 0,
+        "aiState": "player",
+        "hitFlashSec": 0,
+        "muzzleFlashSec": 0,
+        "jumpZ": 0,
+        "jumpVz": 0,
+        "jumpStartElev": 1,
+        "stamina": 100,
+        "maxStamina": 100,
+        "outOfAmmo": false,
+        "usingPistol": false,
+        "pistolMag": 8,
+        "pistolReloadSec": 0,
+        "meleeCooldownSec": 0,
+        "weaponTier": 0
+      }
+    ],
+    "enemies": [
+      {
+        "id": 18,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4360.683048913356,
+        "y": 1269.0483405061284,
+        "vx": -51.18469374425331,
+        "vy": 58.516533162364794,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 19,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 391.0665851908093,
+        "y": 2847.53714828496,
+        "vx": 0,
+        "vy": 78.00000000000182,
+        "facing": 1.5707963267948966,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 20,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 1144.1874546180961,
+        "y": 656.1075466965357,
+        "vx": -55.15432798862548,
+        "vy": 55.15432798862548,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 22,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 434,
+        "y": 1247.9850107438697,
+        "vx": 0,
+        "vy": 78.00000000000182,
+        "facing": 1.5707963267948966,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 23,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4169.269724494466,
+        "y": 2910.250275505526,
+        "vx": -55.154327988620935,
+        "vy": 55.154327988620935,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      },
+      {
+        "id": 24,
+        "kind": "walker",
+        "name": "Infected Walker",
+        "x": 4213.3563919987955,
+        "y": 4275.255054894029,
+        "vx": -55.154327988620935,
+        "vy": 55.154327988620935,
+        "facing": 2.356194490192345,
+        "hp": 90,
+        "maxHp": 90,
+        "armor": 1,
+        "speed": 78,
+        "damage": 12,
+        "radius": 14,
+        "attackRange": 28,
+        "attackCooldownSec": 0,
+        "isBoss": false,
+        "isFlying": false,
+        "isStationary": false,
+        "cloaked": false,
+        "illuminated": false,
+        "disorientedSec": 0,
+        "slowSec": 0,
+        "burningSec": 0,
+        "tx1Sec": 0,
+        "reviving": false,
+        "reviveTimerSec": 0,
+        "revivedOnce": false,
+        "leapCooldownSec": 0,
+        "cocoonSpawnSec": 12,
+        "hitFlashSec": 0,
+        "bossPhase2": false
+      }
+    ],
+    "bullets": [],
+    "flares": [],
+    "claymores": [],
+    "turrets": [],
+    "firePools": [],
+    "airStrikes": [],
+    "airdrops": [
+      {
+        "id": 29,
+        "x": 1260,
+        "y": 3780,
+        "altitude": 0,
+        "maxAltitude": 420,
+        "remainSec": 0,
+        "maxSec": 4,
+        "label": "SW MEADOW DROP",
+        "smokeOnlySec": 17.485999999999994
+      },
+      {
+        "id": 30,
+        "x": 2160,
+        "y": 3690,
+        "altitude": 10.600000000000785,
+        "maxAltitude": 465,
+        "remainSec": 0.10600000000000785,
+        "maxSec": 4.65,
+        "label": "SOUTH ROAD CAGE",
+        "smokeOnlySec": 0
+      },
+      {
+        "id": 31,
+        "x": 1230,
+        "y": 2460,
+        "altitude": 72.74716981132163,
+        "maxAltitude": 510,
+        "remainSec": 0.7560000000000091,
+        "maxSec": 5.3,
+        "label": "WEST RIDGE DROP",
+        "smokeOnlySec": 0
+      },
+      {
+        "id": 32,
+        "x": 2430,
+        "y": 2820,
+        "altitude": 131.14789915966452,
+        "maxAltitude": 555,
+        "remainSec": 1.406000000000007,
+        "maxSec": 5.95,
+        "label": "RIVERBANK DROP",
+        "smokeOnlySec": 0
+      },
+      {
+        "id": 33,
+        "x": 1710,
+        "y": 1920,
+        "altitude": 186.9090909090918,
+        "maxAltitude": 600,
+        "remainSec": 2.0560000000000094,
+        "maxSec": 6.6,
+        "label": "NORTH WOODS DROP",
+        "smokeOnlySec": 0
+      }
+    ],
+    "loots": [
+      {
+        "id": 1,
+        "x": 1485,
+        "y": 3975,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 2,
+        "x": 1755,
+        "y": 3825,
+        "kind": "bandage",
+        "label": "FIBRIN BANDAGE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 3,
+        "x": 1365,
+        "y": 2985,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 4,
+        "x": 1875,
+        "y": 2955,
+        "kind": "flare",
+        "label": "ILLUM FLARES",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 5,
+        "x": 1365,
+        "y": 3435,
+        "kind": "armor",
+        "label": "COMPOSITE ARMOR",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 6,
+        "x": 1905,
+        "y": 3435,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 7,
+        "x": 1635,
+        "y": 3195,
+        "kind": "claymore",
+        "label": "CLAYMORE CASE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 8,
+        "x": 795,
+        "y": 2865,
+        "kind": "medkit",
+        "label": "FIELD MEDKIT",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 9,
+        "x": 975,
+        "y": 1665,
+        "kind": "tx1",
+        "label": "TX-1 TOXIC ROUNDS",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 10,
+        "x": 1155,
+        "y": 1455,
+        "kind": "ap_ammo",
+        "label": "AP / DU ROUNDS",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 11,
+        "x": 1875,
+        "y": 2295,
+        "kind": "weapon_upgrade",
+        "label": "FN MK17 / SPEC WEAPON",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 12,
+        "x": 2145,
+        "y": 1305,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 13,
+        "x": 2535,
+        "y": 2505,
+        "kind": "bandage",
+        "label": "FIBRIN BANDAGE",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 14,
+        "x": 3525,
+        "y": 3285,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 15,
+        "x": 3615,
+        "y": 2445,
+        "kind": "flare",
+        "label": "ILLUM FLARES",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 16,
+        "x": 3975,
+        "y": 1875,
+        "kind": "armor",
+        "label": "COMPOSITE ARMOR",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 17,
+        "x": 4245,
+        "y": 1335,
+        "kind": "ammo",
+        "label": "AMMO CRATE (+3 MAGS)",
+        "collected": false,
+        "discovered": false
+      },
+      {
+        "id": 37,
+        "x": 1275,
+        "y": 3795,
+        "kind": "airdrop",
+        "label": "SW MEADOW DROP",
+        "collected": false,
+        "discovered": true
+      }
+    ],
+    "scene": "PlayScene",
+    "player": {
+      "x": 1690,
+      "y": 4245,
+      "hp": 150,
+      "maxHp": 150
+    },
+    "loadedTextures": [
+      "forest",
+      "asphalt",
+      "wall",
+      "roof",
+      "cliff",
+      "bridge",
+      "humvee",
+      "sandbag",
+      "crate"
+    ],
+    "missingTextures": [],
+    "duoMode": "compact",
+    "nvgActive": false,
+    "soloMode": true
+  },
+  "frames": [
+    {
+      "anchor": "title",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/01_title.png"
+    },
+    {
+      "anchor": "gameplay_idle",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/02_gameplay_idle.png"
+    },
+    {
+      "anchor": "gameplay_action",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/03_gameplay_action.png"
+    },
+    {
+      "anchor": "gameplay_dodge",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/04_gameplay_dodge.png"
+    },
+    {
+      "anchor": "secondary_viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/05_secondary_viewport.png"
+    },
+    {
+      "anchor": "duo_unfolded",
+      "viewport": {
+        "width": 780,
+        "height": 844
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/06_duo_unfolded.png"
+    },
+    {
+      "anchor": "duo_wide",
+      "viewport": {
+        "width": 844,
+        "height": 780
+      },
+      "path": "/Users/wangrenzhu/work/claude-app-factory/runs/game-apps/deadwatch-sector-zero/.playtest-evidence/07_duo_wide.png"
+    }
+  ]
+}

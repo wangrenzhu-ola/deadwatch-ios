@@ -1,0 +1,36 @@
+{
+  "title": "DEADWATCH: SECTOR ZERO",
+  "kernel": "squad-extraction-25d",
+  "genre": "2.5D Tactical Squad Survival & Extraction",
+  "depth_plan": {
+    "presentation": "2.5d",
+    "build_axes": [
+      "4-operator tactical squad roster (Rifleman, Medic, Engineer, Heavy) with 1-tap swap and 3 autonomous AI teammates",
+      "two-branch class specialization at Chapter 1 and Chapter 2 checkpoints (TX-1 Rounds vs Blast Flares, Field Surgery vs Bio-Shield, Dual Fortress Turrets vs Guerrilla Claymores, Napalm Wall vs Orbital Air Support)",
+      "field scavenging & tactical supply economy (magazines, kevlar armor, flares, medkits, claymores, supply airdrops)",
+      "persistent military rank XP, service medals, and multi-tier difficulty unlocks (Boot Camp, Veteran, Hell)"
+    ],
+    "enemy_counters": [
+      { "enemy": "Stalker", "answer": "throw illumination flare to strip 70% darkness cloak and focus fire" },
+      { "enemy": "Reanimator", "answer": "cauterize with Napalm fire walls or TX-1 toxic rounds to prevent 3s corpse revival" },
+      { "enemy": "Hunter", "answer": "suppress mid-leap and clear fracture ailment via Medic Field Aid" },
+      { "enemy": "Brood Cocoon", "answer": "switch to FOLLOW guerrilla push to burn perimeter cocoons before 2-minute maturation timer" },
+      { "enemy": "Ironjaw (Ch2 Boss)", "answer": "abandon breached barricades, kite along forest perimeter road, and call Gunship support" },
+      { "enemy": "Pale Reaper (Ch3 Boss)", "answer": "chain flares, Napalm chokes, and F-22 airstrikes while holding the 60s LZ extraction circle" }
+    ],
+    "signature_moments": [
+      "Blackout Clouds plunge the village into darkness while 4 overlapping squad flashlights sweep incoming waves",
+      "Power substation restoration ignites all 4 village floodlights across the central square",
+      "Gunship strafing run and F-22 Raptor airstrike obliterate horde waves across glowing Napalm barricades",
+      "Green extraction smoke pillar at North LZ during the 60-second nuclear purge countdown against Pale Reaper"
+    ],
+    "endless": {
+      "chapter_size": 3,
+      "boss_every": 1,
+      "hp_curve": "base * (1 + 0.35 * difficultyTier) * (1 + 0.18 * waveIndex)",
+      "new_enemy_at": [1, 2, 4, 6, 8],
+      "difficulties": ["Boot Camp", "Veteran", "Hell"],
+      "persistence_key": "deadwatch_sector_zero_meta_v1"
+    }
+  }
+}

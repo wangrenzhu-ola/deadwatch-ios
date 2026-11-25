@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6692409AE5292EA444C192 /* DeadWatchBundleScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CCDB6ACD9E56685C482AB3 /* DeadWatchBundleScheme.swift */; };
+		79500093F05EE5AFBF1CCDAC /* DeadWatchPayload in Resources */ = {isa = PBXBuildFile; fileRef = A9126530479F03A13B4C7C55 /* DeadWatchPayload */; };
+		9A9EFE114DEFACA4BDCF70C2 /* DeadWatchSceneHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1FCEEAD31E636EE390DF9 /* DeadWatchSceneHost.swift */; };
+		A010F9EB21DE8FCAC4F12243 /* DeadWatchMediaBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21BF1D57618188B040D904 /* DeadWatchMediaBridge.swift */; };
+		ADAB6399B19B63C401CBE50D /* DeadWatchHapticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF5DA1AC3816C877732309 /* DeadWatchHapticsEngine.swift */; };
+		D35EA4FAE54B4AE75768E25E /* DeadWatchStateVaultA45E.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4353583F787038F66C98CE /* DeadWatchStateVaultA45E.swift */; };
+		E7A3C5B05833A921CFB55292 /* DeadWatchDuoPostureRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E3A4C7BBEABEBE867BF3A /* DeadWatchDuoPostureRoot.swift */; };
+		EC649000EBF870F97963F4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A534C5BDDE957BCB62F22344 /* Assets.xcassets */; };
+		ED9B8CA5BD46F5EED9038320 /* DeadWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E62067C9F5DDC5F479E3677 /* DeadWatchApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74CF5DA1AC3816C877732309 /* DeadWatchHapticsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchHapticsEngine.swift; sourceTree = "<group>"; };
+		74F1FCEEAD31E636EE390DF9 /* DeadWatchSceneHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchSceneHost.swift; sourceTree = "<group>"; };
+		8E62067C9F5DDC5F479E3677 /* DeadWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchApp.swift; sourceTree = "<group>"; };
+		9D21BF1D57618188B040D904 /* DeadWatchMediaBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchMediaBridge.swift; sourceTree = "<group>"; };
+		A534C5BDDE957BCB62F22344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9126530479F03A13B4C7C55 /* DeadWatchPayload */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DeadWatchPayload; path = Resources/DeadWatchPayload; sourceTree = SOURCE_ROOT; };
+		B8CCDB6ACD9E56685C482AB3 /* DeadWatchBundleScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchBundleScheme.swift; sourceTree = "<group>"; };
+		BF35C61356F590A4B1985892 /* DeadWatch.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DeadWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4353583F787038F66C98CE /* DeadWatchStateVaultA45E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchStateVaultA45E.swift; sourceTree = "<group>"; };
+		D40E3A4C7BBEABEBE867BF3A /* DeadWatchDuoPostureRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadWatchDuoPostureRoot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12C8D43BBE041FFC55774764 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A534C5BDDE957BCB62F22344 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35972FF971025007D0908811 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E62067C9F5DDC5F479E3677 /* DeadWatchApp.swift */,
+				B8CCDB6ACD9E56685C482AB3 /* DeadWatchBundleScheme.swift */,
+				D40E3A4C7BBEABEBE867BF3A /* DeadWatchDuoPostureRoot.swift */,
+				74CF5DA1AC3816C877732309 /* DeadWatchHapticsEngine.swift */,
+				9D21BF1D57618188B040D904 /* DeadWatchMediaBridge.swift */,
+				74F1FCEEAD31E636EE390DF9 /* DeadWatchSceneHost.swift */,
+				CE4353583F787038F66C98CE /* DeadWatchStateVaultA45E.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7B156D278A18F9639C3A1F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF35C61356F590A4B1985892 /* DeadWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD05624D3518A017DDE8009D = {
+			isa = PBXGroup;
+			children = (
+				A9126530479F03A13B4C7C55 /* DeadWatchPayload */,
+				12C8D43BBE041FFC55774764 /* Resources */,
+				35972FF971025007D0908811 /* Sources */,
+				7B156D278A18F9639C3A1F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC66E541C1F26EFF324DC996 /* DeadWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971E25D61E5CAEE3EEE6ED87 /* Build configuration list for PBXNativeTarget "DeadWatch" */;
+			buildPhases = (
+				EE3352A7E0B836D58FD87267 /* Sources */,
+				276D172C9357F52FD8DEF6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeadWatch;
+			packageProductDependencies = (
+			);
+			productName = DeadWatch;
+			productReference = BF35C61356F590A4B1985892 /* DeadWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3A82DF74230BB77C2F91B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3B0888FDAD71F759FF177823 /* Build configuration list for PBXProject "DeadWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FD05624D3518A017DDE8009D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7B156D278A18F9639C3A1F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC66E541C1F26EFF324DC996 /* DeadWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276D172C9357F52FD8DEF6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC649000EBF870F97963F4DD /* Assets.xcassets in Resources */,
+				79500093F05EE5AFBF1CCDAC /* DeadWatchPayload in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3352A7E0B836D58FD87267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9B8CA5BD46F5EED9038320 /* DeadWatchApp.swift in Sources */,
+				1F6692409AE5292EA444C192 /* DeadWatchBundleScheme.swift in Sources */,
+				E7A3C5B05833A921CFB55292 /* DeadWatchDuoPostureRoot.swift in Sources */,
+				ADAB6399B19B63C401CBE50D /* DeadWatchHapticsEngine.swift in Sources */,
+				A010F9EB21DE8FCAC4F12243 /* DeadWatchMediaBridge.swift in Sources */,
+				9A9EFE114DEFACA4BDCF70C2 /* DeadWatchSceneHost.swift in Sources */,
+				D35EA4FAE54B4AE75768E25E /* DeadWatchStateVaultA45E.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4451B44D4922A3E65EFE430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		975A73BBA3CB2F8D93D12587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elonsuperfactory.deadwatchsectorzero;
+				PRODUCT_NAME = DeadWatch;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E744B5F7DDB0B01408D4553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B2B4399B995DFCFDCF47B0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elonsuperfactory.deadwatchsectorzero;
+				PRODUCT_NAME = DeadWatch;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0888FDAD71F759FF177823 /* Build configuration list for PBXProject "DeadWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E744B5F7DDB0B01408D4553 /* Debug */,
+				4451B44D4922A3E65EFE430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		971E25D61E5CAEE3EEE6ED87 /* Build configuration list for PBXNativeTarget "DeadWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975A73BBA3CB2F8D93D12587 /* Debug */,
+				B2B4399B995DFCFDCF47B0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3A82DF74230BB77C2F91B2A /* Project object */;
+}

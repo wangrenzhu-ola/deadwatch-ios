@@ -1,0 +1,51 @@
+name: DeadWatch
+options:
+  bundleIdPrefix: com.elonsuperfactory
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  DeadWatch:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources/Assets.xcassets
+      - path: Resources/DeadWatchPayload
+        buildPhase: resources
+        type: folder
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.elonsuperfactory.deadwatchsectorzero
+        PRODUCT_NAME: "DeadWatch"
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        DEPLOYMENT_POSTPROCESSING: NO
+        STRIP_INSTALLED_PRODUCT: NO
+        ENABLE_TESTABILITY: YES
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleDisplayName: "DeadWatch"
+        NSCameraUsageDescription: "Allow DeadWatch to capture a commander portrait badge directly inside the game."
+        NSMicrophoneUsageDescription: "Allow DeadWatch to detect voice battle shouts to trigger in-game tactical overdrive surges."
+        NSPhotoLibraryUsageDescription: "Allow DeadWatch to choose a commander badge photo and store battle victory posters in your Photo Library."
+        NSPhotoLibraryAddOnlyUsageDescription: "Allow DeadWatch to save gameplay battle cards and high-score posters directly to your Photo Library."
+        UILaunchScreen:
+          UIImageName: LaunchArt
+          UIImageRespectsSafeAreaInsets: false
+          UIColorName: LaunchBg
+        UIRequiresFullScreen: false
+        UIStatusBarHidden: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
